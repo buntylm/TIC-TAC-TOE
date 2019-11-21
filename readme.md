@@ -10,3 +10,62 @@ A Swift code snippet game logic written with 100% unit test code coverage (Only 
 
 4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
 
+### Test-cases 
+Below are the test-cases covered.
+
+##### Cross Match
+
+```
+[X][][]
+[][X][]
+[][][X]
+```
+
+```
+[][][X]
+[][X][]
+[X][][]
+```
+
+##### Horizontal Match
+
+```
+[X][X][X]
+[][][]
+[][][]
+```
+
+```
+[][][]
+[X][X][X]
+[][][]
+```
+
+```
+[][][]
+[][][]
+[X][X][X]
+```
+
+##### Vertical Match
+
+```
+[X][][]
+[X][][]
+[X][][]
+```
+
+```
+[][X][]
+[][X][]
+[][X][]
+```
+
+```
+[][][X]
+[][][X]
+[][][X]
+```
+
+### Code-coverage 
+
