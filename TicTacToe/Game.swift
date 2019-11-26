@@ -39,16 +39,18 @@ class Game  {
     /*
      predefined match combinations.
      */
-    private let keyCombinationPairs = ["0,0":[["0,1","0,2"],["1,0","2,0"],["1,1","2,2"]],
+    private let keyCombinationPairs = [
+                        "0,0":[["0,1","0,2"],["1,0","2,0"],["1,1","2,2"]],
                         "1,0":[["1,1","1,2"]],
                         "2,0":[["2,1","2,2"]],
                         "0,1":[["1,1","2,1"]],
-                        "0,2":[["1,2","2,2"], ["1,1","2,0"]]]
+                        "0,2":[["1,2","2,2"], ["1,1","2,0"]]
+                        ]
     
     /*
      
      */
-    func didAnyoneWin(_ grid: Grid) -> (Mark?, [String]) {
+    public func didAnyoneWin(_ grid: Grid) -> (Mark?, [String]) {
         
         var pairMatched: [String] = []
         var markMatched: Mark?
