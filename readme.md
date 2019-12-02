@@ -67,5 +67,6 @@ Below are the test-cases covered.
 [][][X]
 ```
 
-### Code-coverage 
-![Code coverage](https://raw.githubusercontent.com/buntylm/TIC-TAC-TOE/master/Code-coverage.png)
+### Code-coverage  
+![Code coverage](https://raw.githubusercontent.com/buntylm/TIC-TAC-TOE/master/Code-coverage.png) 
+
